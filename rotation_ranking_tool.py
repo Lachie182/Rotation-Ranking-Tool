@@ -8,8 +8,8 @@ from colour import Color
 from openpyxl import Workbook
 
 # Load data from Excel file
-def load_data(file_path):
-    df = pd.read_excel(file_path, sheet_name="Sheet1", skiprows=2)  # Assuming data starts from row 4
+def load_data(2025 JHO Line Options 1-107 copy.xlsx):
+    df = pd.read_excel(2025 JHO Line Options 1-107 copy.xlsx, sheet_name="Sheet1", skiprows=2)  # Assuming data starts from row 4
     df = df[3:]  # Data starts from row 4
     return df
 
