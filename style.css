@@ -1,0 +1,64 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.button-row {
+    display: flex;
+    gap: 10px;  /* Add space between buttons */
+    margin-bottom: 10px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+    max-width: 2000px;  /* Set a maximum width as per your header image */
+    margin: 0 auto;  /* Center the container horizontally */
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sortable-list {
+    width: 100%;  /* Make the list the same width as the container */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    width: 100%;  /* Ensure each list item is as wide as the container */
+    cursor: grab;
+    background: transparent;  
+    border: none;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+li img {
+    width: 100%;  /* Ensure images inside list items also match the width */
+    height: auto;
+    display: block;
+}
+
+/* Style for the ghost element when dragging */
+.sortable-ghost {
+    opacity: 0.4;
+    border: none;
+    box-shadow: none;
+}
